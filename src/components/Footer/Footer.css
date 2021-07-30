@@ -1,0 +1,72 @@
+.footer {
+  position: relative;
+  margin: 0 auto;
+  margin-top: 5rem;
+  background-color: #444444;
+  text-align: center;
+  text-decoration: none;
+}
+
+.footer__redes-socias {
+  text-align: right;
+  margin-right: 1.25rem;
+}
+
+.rede-social img {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 0.75rem;
+  margin-top: 2rem;
+  filter: invert(100%)
+}
+
+.footer__contatos {
+  position: absolute;
+  left: 2rem;
+  top: 2rem;
+  text-align: left;
+  font-size: 1.6rem;
+}
+
+.footer__github {
+  margin: 0 !important;
+}
+
+@media(max-width: 800px) {
+  .footer__contatos {
+    font-size: 1.8rem;
+  }
+}
+
+@media(max-width: 700px) {
+  .rede-social img {
+    width: 5rem;
+    height: 5rem;
+  }
+  .footer__contatos {
+    font-size: 2rem;
+  }
+}
+
+@media(max-width: 600px) {
+  .footer__redes-socias {
+    text-align: center;
+    margin-right: 0rem;
+  }
+  .footer__contatos {
+    position: relative;
+    left: 0rem;
+    top: 0rem;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 4rem;
+  }
+  .rede-social img {
+    width: 8rem;
+    height: 8rem;
+    margin-right: 2.5rem;
+  }
+  .footer__github img {
+    margin-right: 0rem;
+  }
+}

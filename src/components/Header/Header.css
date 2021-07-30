@@ -1,0 +1,86 @@
+.header {
+  margin-bottom: 15rem;
+  color: white;
+}
+
+.header canvas {
+  position: relative;
+  right: 40.5rem;
+  display: block;
+  height: 38rem !important;
+  width: 100% !important;
+}
+
+.header__titule {
+  text-transform: uppercase;
+  font-size: 3.5rem
+}
+
+.header__center {
+  position: relative;
+}
+
+.header__text {
+  position: absolute;
+  right: 4rem;
+  top: 0;
+  display: inline-block;
+  height: 40rem;
+  width: 55%;
+  text-align: left;
+  margin: 0;
+  padding-top: 6rem;
+  line-height: 3.75rem;
+  letter-spacing: .35rem;
+  font-size: 2.45rem;
+}
+
+@media(max-width: 1200px) {
+  .header__text {
+    right: 1rem;
+  }
+  .header canvas {
+    right: 32.5rem;
+  }
+}
+
+@media(max-width: 1065px) {
+  .header canvas {
+    right: 28rem;
+    height: 32rem !important;
+  }
+}
+
+  @media(max-width: 980px) {
+    .header__text {
+      padding-top: 0rem;
+    }
+  }
+
+@media(max-width: 755px) {
+  .header canvas {
+    right: 25rem;
+    height: 30rem !important;
+  }
+}
+
+@media(max-width: 700px) {
+  .header canvas {
+    top: 0rem;
+    right: 0rem;
+    height: 50rem !important;
+  }
+  .header__text {
+    position: relative;
+    text-align: center;
+    width: 70%;
+    font-size: 3rem;
+    margin-top: 2rem;
+  }
+}
+
+@media(max-width: 350px) {
+  .header canvas {
+    height: 45rem !important;
+  }
+}

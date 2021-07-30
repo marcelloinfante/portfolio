@@ -1,0 +1,88 @@
+.loader {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  z-index: 2;
+  color: white;
+  font-size: 3rem;
+  animation-name: animacao-da-caixa-de-titulo;
+  animation-duration: 2s;
+  animation-fill-mode: both;
+  animation-delay: 5s;
+  white-space: nowrap;
+  line-height: 6.5rem;
+}
+
+
+.loader__titule {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.loader__titule-1 {
+  font-style: italic;
+  font-weight: lighter;
+  animation-name: animacao-do-titulo;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-delay: 1.5s;
+}
+
+.loader__titule-2 {
+  font-weight: lighter;
+  animation-name: animacao-do-titulo;
+  animation-duration: 3s;
+  animation-fill-mode: both;
+  animation-delay: 3s;
+}
+
+@keyframes animacao-do-titulo {
+  0% {
+    opacity: 0
+  }
+  100% {
+    opacity: 1
+  }
+}
+
+@keyframes animacao-da-caixa-de-titulo {
+  0% {
+    display: block;
+    opacity: 1;
+  }
+  99% {
+    z-index: 1
+  }
+  100% {
+    display: none;
+    opacity: 0;
+    z-index: -1
+  }
+}
+
+@media(max-width: 800px) {
+  .loader__titule {
+    top: 37.5%;
+  }
+}
+
+@media(max-width: 450px) {
+  .loader {
+    font-size: 2.5rem;
+  }
+}
+
+@media(max-width: 370px) {
+  .loader {
+    font-size: 2.25rem;
+  }
+}
+
+@media(max-width: 330px) {
+  .loader {
+    font-size: 2rem;
+  }
+}

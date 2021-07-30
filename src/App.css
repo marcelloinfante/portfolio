@@ -1,0 +1,110 @@
+html {
+  font-size: 62.5%;
+}
+
+html, body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+@media(max-width: 900px) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+@media(max-width: 800px) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media(max-width: 600px) {
+  html {
+    font-size: 43.75%;
+  }
+}
+
+@media(max-width: 500px) {
+  html {
+    font-size: 37.5%;
+  }
+}
+
+@media(min-width: 1480px) {
+  html {
+    font-size: 75%;
+  }
+}
+
+@media(min-width: 1680px) {
+  html {
+    font-size: 87.5%;
+  }
+}
+
+@font-face {
+  src: url('./fonts/nasalization-rg.otf');
+  font-family: Nasalization
+}
+
+body {
+  font-family: Nasalization;
+  overflow-x: hidden;
+  background-color: black;
+  color: white;
+  position: relative
+}
+
+body::-webkit-scrollbar {
+  opacity: 1;
+  width: .5rem;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 2rem;
+}
+
+body::-webkit-scrollbar-corner{
+  opacity: 1;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

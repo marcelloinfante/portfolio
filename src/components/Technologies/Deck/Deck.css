@@ -1,0 +1,35 @@
+.deck {
+  position: absolute;
+  width: 45rem;
+  height: 50rem;
+  will-change: transform;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -57.5rem;
+}
+
+.deck__algo {
+  background-color: white;
+  background-size: auto 65%;
+  background-repeat: no-repeat;
+  background-position: center center;
+  width: 28rem;
+  height: 40rem;
+  will-change: transform;
+  border-radius: 10px;
+  box-shadow: 0 12.5px 100px -10px rgba(50, 50, 73, 0.4), 0 10px 10px -10px rgba(50, 50, 73, 0.3);
+  cursor: alias;
+}
+
+.deck__position {
+  background-color: green;
+  text-align: center;
+}
+
+.deck__center {
+  display: inline-block;
+  text-align: center;
+  background-color: red;
+  transform: translateX(-22.5rem);
+}

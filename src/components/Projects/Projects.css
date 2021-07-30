@@ -1,0 +1,129 @@
+.projects {
+  position: relative;
+  margin-bottom: 15rem;
+}
+
+.projects__titule {
+  text-transform: uppercase;
+  font-size: 3.5rem;
+}
+
+.projects__facing-tech {
+  background-color: white;
+  width: 55%;
+  height: 16rem;
+  margin: 0 auto;
+  margin-top: 4rem;
+  transform: skewx(-15deg);
+}
+
+.projects__facing-tech__titule {
+  color: black;
+  transform: skewx(15deg);
+  font-size: 3.5rem;
+  width: 76.6%;
+  margin-left: auto;
+  text-align: left;
+  margin-bottom: 1rem;
+  padding-top: 4rem;
+}
+
+.projects__facing-tech__titule a {
+  text-decoration: none;
+  color: black;
+}
+
+.projects__facing-tech__titule a:visited {
+  color: black
+}
+
+.projects__facing-tech__subtitule {
+  margin-top: 0;
+  color: black;
+  transform: skewx(15deg);
+  font-size: 1.75rem;
+  text-align: left;
+  width: 75%;
+  margin-left: auto
+}
+
+.projects__facing-tech__logo {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%) skewx(15deg);
+  overflow: hidden;
+  border-radius: 50%;
+  height: 12rem;
+  width: 12rem;
+}
+
+.projects__facing-tech__img {
+  height: 12rem;
+  width: 12rem;
+}
+
+@media(max-width: 1150px) {
+  .projects__facing-tech {
+    width: 65%;
+  }
+}
+
+@media(max-width: 1060px) {
+  .projects__facing-tech__logo {
+    height: 10rem;
+    width: 10rem;
+  }
+
+  .projects__facing-tech__img {
+    height: 10rem;
+    width: 10rem;
+  }
+}
+
+@media(max-width: 960px) {
+  .projects__facing-tech__logo {
+    height: 9rem;
+    width: 9rem;
+  }
+
+  .projects__facing-tech__img {
+    height: 9rem;
+    width: 9rem;
+  }
+}
+
+@media(max-width: 720px) {
+  .projects__facing-tech {
+    width: 70%;
+  }
+}
+
+@media(max-width: 720px) {
+  .projects__facing-tech {
+    width: 70%;
+  }
+}
+
+@media(max-width: 500px) {
+  .projects__facing-tech {
+    width: 80%;
+  }
+}
+@media(max-width: 350px) {
+  .projects__facing-tech {
+    width: 90%;
+  }
+}
+
+@media(max-width: 320px) {
+  .projects__facing-tech__logo {
+    height: 8rem;
+    width: 8rem;
+  }
+
+  .projects__facing-tech__img {
+    height: 8rem;
+    width: 8rem;
+  }
+}
