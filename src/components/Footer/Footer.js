@@ -16,11 +16,11 @@ const Footer = () => {
         <a className='footer__github rede-social' href='https://github.com/marcelloinfante' target='_blank'><img src={github} /></a>
       </div>
       <div className='footer__contatos'>
-        <b>CONTATOS:</b><br /><br />
+        <b>CONTACTS:</b><br /><br />
         <b>Email:</b> contato@marcelloinfante.com.br<br />
-        <b>Celular:</b> +55(11)95610-7687
+        <b>Phone:</b> +55(11)95610-7687
       </div>
-      <BotaoDeTeste conteudo={'Currículo'} />
+      <BotaoDeTeste conteudo={'Resume'} />
       <div className='footer__contato'></div>
     </div>
   )

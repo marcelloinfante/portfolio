@@ -28,6 +28,10 @@
   text-decoration: none;
 }
 
+.dispositivo-ios__conteudo {
+  background-color: darkorange;
+}
+
 .botao-de-teste__background {
   position: absolute;
   left: 50%;
@@ -53,6 +57,10 @@
   animation-name: animacao-background;
   animation-duration: 10s;
   animation-iteration-count: infinite;
+}
+
+.dispositivo-ios__background {
+  display: none;
 }
 
 @keyframes animacao-background {

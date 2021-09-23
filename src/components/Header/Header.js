@@ -13,7 +13,7 @@ const Header = () => {
 
   return(
     <div className='header'>
-      <h1 data-aos='fade-up' className='header__titule'>Sobre mim</h1>
+      <h1 data-aos='fade-up' className='header__titule'>About me</h1>
       <div className='header__center'>
       <Canvas
         camera={{
@@ -24,9 +24,9 @@ const Header = () => {
         <EarthHologram />
       </Canvas>
         <p data-aos='fade-up' className='header__text'>
-          Sou um inventor apaixonado por tecnologia e acredito no poder que ela tem de transformar o mundo.
-          A minha missão é ajudar as pessoas utilizando inovação e engenharia.
-          O foco do meu trabalho é desenvolver experiências imersivas por meio de UIs modernas.
+          I am a inventor passionate about technology and i acknowledge the power that it have to change the world.
+          My mission is to help people using innovation and engineering.
+          The focus of my work is to develop solutions through software technologies.
         </p>
       </div>
     </div>

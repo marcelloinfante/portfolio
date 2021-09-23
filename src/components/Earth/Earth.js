@@ -58,7 +58,7 @@ export default function Earth(props) {
   })
 
   const botaoClicado = () => {
-    window.open("https://drive.google.com/file/d/1mxxjjiFuFvRE-6QL5nhuYy8fCnP971Gk/view?usp=sharing")
+    window.open("https://drive.google.com/file/d/1soel62Gh-aku3jCfT-SCKuo7VVGGLaFH/view?usp=sharing")
   }
 
   return (

@@ -5,7 +5,7 @@
   background-color: black;
   z-index: 2;
   color: white;
-  font-size: 3rem;
+  font-size: 2.5rem;
   animation-name: animacao-da-caixa-de-titulo;
   animation-duration: 2s;
   animation-fill-mode: both;
@@ -71,18 +71,18 @@
 
 @media(max-width: 450px) {
   .loader {
-    font-size: 2.5rem;
+    font-size: 2.15rem;
   }
 }
 
 @media(max-width: 370px) {
   .loader {
-    font-size: 2.25rem;
+    font-size: 1.75rem;
   }
 }
 
 @media(max-width: 330px) {
   .loader {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }

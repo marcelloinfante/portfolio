@@ -1,45 +1,48 @@
 html {
-  font-size: 62.5%;
+  font-size: 10px;
 }
 
 html, body {
   max-width: 100vw;
   overflow-x: hidden;
+  animation-name: no-scroll;
+  animation-duration: 7s;
+  animation-fill-mode: both;
 }
 
 @media(max-width: 900px) {
   html {
-    font-size: 56.25%;
+    font-size: 9px;
   }
 }
 
 @media(max-width: 800px) {
   html {
-    font-size: 50%;
+    font-size: 8px;
   }
 }
 
 @media(max-width: 600px) {
   html {
-    font-size: 43.75%;
+    font-size: 7px;
   }
 }
 
 @media(max-width: 500px) {
   html {
-    font-size: 37.5%;
+    font-size: 6px;
   }
 }
 
 @media(min-width: 1480px) {
   html {
-    font-size: 75%;
+    font-size: 12px;
   }
 }
 
 @media(min-width: 1680px) {
   html {
-    font-size: 87.5%;
+    font-size: 14px;
   }
 }
 
@@ -53,7 +56,7 @@ body {
   overflow-x: hidden;
   background-color: black;
   color: white;
-  position: relative
+  position: relative;
 }
 
 body::-webkit-scrollbar {
@@ -106,5 +109,17 @@ body::-webkit-scrollbar-corner{
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes no-scroll {
+  0% {
+    overflow-y: hidden;
+  }
+  95% {
+    overflow-y: hidden;
+  }
+  100% {
+    overflow-y: auto;
   }
 }

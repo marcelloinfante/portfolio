@@ -13,7 +13,7 @@ const TituleHeader = () => {
   };
 
   const botaoClicado = () => {
-    window.open("https://drive.google.com/file/d/1mxxjjiFuFvRE-6QL5nhuYy8fCnP971Gk/view?usp=sharing")
+    window.open("https://drive.google.com/file/d/1soel62Gh-aku3jCfT-SCKuo7VVGGLaFH/view?usp=sharing")
   }
 
   return(
@@ -22,8 +22,8 @@ const TituleHeader = () => {
         <textGeometry attach='geometry' args={['Marcello Infante', textOptions]} />
         <meshStandardMaterial attach='material' />
       </mesh>
-      <mesh scale={0.04} position={[-1.92, 0, 2.25]}>
-        <textGeometry attach='geometry' args={['Desenvolvedor Front-end', textOptions]} />
+      <mesh scale={0.04} position={[-1.38, 0, 2.25]}>
+        <textGeometry attach='geometry' args={['Software Engineer', textOptions]} />
         <meshStandardMaterial attach='material' />
       </mesh>
       <mesh onClick={botaoClicado}>
@@ -36,8 +36,8 @@ const TituleHeader = () => {
         </RoundedBox>
         <meshStandardMaterial attach='material' />
       </mesh>
-      <mesh scale={0.02} position={[-0.41, -.45, 2.35]}>
-        <textGeometry attach='geometry' args={['CURRÍCULO', textOptions]} />
+      <mesh scale={0.0255} position={[-0.41, -.45, 2.35]}>
+        <textGeometry attach='geometry' args={['RESUME', textOptions]} />
         <meshStandardMaterial attach='material' color='black' />
       </mesh>
     </>

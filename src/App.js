@@ -102,6 +102,23 @@ if (!teste) {
 }
 
 const App = () => {
+  if(window.location.href.includes('linkedin')) {
+    window.location.href = "https://linkedin.com/in/marcelloinfante"
+    return(<></>)
+  } else if(window.location.href.includes('github')) {
+    window.location.href = "https://github.com/marcelloinfante"
+    return(<></>)
+  } else if(window.location.href.includes('instagram')) {
+    window.location.href = "https://www.instagram.com/marcello.infante/"
+    return(<></>)
+  } else if(window.location.href.includes('facebook')) {
+    window.location.href = "https://www.facebook.com/marcello.infante.7/"
+    return(<></>)
+  } else if(window.location.href.includes('resume')) {
+    window.location.href = "https://drive.google.com/file/d/1soel62Gh-aku3jCfT-SCKuo7VVGGLaFH/view?usp=sharing"
+    return(<></>)
+  }
+
   return (
     <div className="App">
       {load}
@@ -117,5 +134,3 @@ const App = () => {
 }
 
 export default App;
-
-//<Loader />
