@@ -1,23 +1,28 @@
-import './Projects.css'
-import facingTech from './facing-tech-head.png'
+import './Projects.css';
+import ProjectField from './ProjectField/ProjectField';
+import facingTech from './facing-tech-head.png';
+import foremind from './foremind-logo.png';
 
 const Projects = () => {
-  return(
-    <div className='projects'>
-      <h1 className='projects__titule'>Projects</h1>
-      <div className='projects__conjunto-de-projetos'>
-        <div className='projects__facing-tech'>
-          <h2 className='projects__facing-tech__titule'><a href='https://www.facingtech.com.br/face-emotions' target='_blank'>Facing Tech</a></h2>
-          <p className='projects__facing-tech__subtitule'>Facial Expression Recognition Technologies</p>
-          <div className='projects__facing-tech__logo'>
-            <a href='https://www.facingtech.com.br/face-emotions' target='_blank'>
-              <img className='projects__facing-tech__img' src={facingTech} />
-            </a>
-          </div>
-        </div>
+  return (
+    <div className="projects">
+      <h1 className="projects__titule">Projects</h1>
+      <div className="projects__conjunto-de-projetos">
+        <ProjectField
+          titule="Facing Tech"
+          subtitule="Facial Expression Recognition Technologies"
+          link="https://www.facingtech.com.br/face-emotions"
+          image={facingTech}
+        />
+        <ProjectField
+          titule="Foremind"
+          subtitule="Machine Learning Techonologies For Predictions"
+          link="https://www.foremind.io/"
+          image={foremind}
+        />
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;

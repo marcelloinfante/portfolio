@@ -115,7 +115,7 @@ const App = () => {
     window.location.href = "https://www.facebook.com/marcello.infante.7/"
     return(<></>)
   } else if(window.location.href.includes('resume')) {
-    window.location.href = "https://drive.google.com/file/d/1soel62Gh-aku3jCfT-SCKuo7VVGGLaFH/view?usp=sharing"
+    window.location.href = "https://drive.google.com/file/d/186qGbjr9MV4CDzm3RMtUc2QOJQqmarBe/view?usp=sharing"
     return(<></>)
   }
 

@@ -1,0 +1,119 @@
+.project-field {
+  background-color: white;
+  width: 55%;
+  height: 16rem;
+  margin: 0 auto;
+  margin-top: 4rem;
+  transform: skewx(-15deg);
+}
+
+.project-field__titule {
+  color: black;
+  transform: skewx(15deg);
+  font-size: 3.5rem;
+  width: 76.6%;
+  margin-left: auto;
+  text-align: left;
+  margin-bottom: 1rem;
+  padding-top: 4rem;
+}
+
+.project-field__titule a {
+  text-decoration: none;
+  color: black;
+}
+
+.project-field__titule a:visited {
+  color: black;
+}
+
+.project-field__subtitule {
+  margin-top: 0;
+  color: black;
+  transform: skewx(15deg);
+  font-size: 1.75rem;
+  text-align: left;
+  width: 75%;
+  margin-left: auto;
+}
+
+.project-field__logo {
+  position: absolute;
+  top: 50%;
+  left: 5%;
+  transform: translateY(-50%) skewx(15deg);
+  overflow: hidden;
+  border-radius: 50%;
+  height: 12rem;
+  width: 12rem;
+}
+
+.project-field__img {
+  height: 12rem;
+  width: 12rem;
+}
+
+@media (max-width: 1150px) {
+  .project-field {
+    width: 65%;
+  }
+}
+
+@media (max-width: 1060px) {
+  .project-field__logo {
+    height: 10rem;
+    width: 10rem;
+  }
+
+  .project-field__img {
+    height: 10rem;
+    width: 10rem;
+  }
+}
+
+@media (max-width: 960px) {
+  .project-field__logo {
+    height: 9rem;
+    width: 9rem;
+  }
+
+  .project-field__img {
+    height: 9rem;
+    width: 9rem;
+  }
+}
+
+@media (max-width: 720px) {
+  .project-field {
+    width: 70%;
+  }
+}
+
+@media (max-width: 720px) {
+  .project-field {
+    width: 70%;
+  }
+}
+
+@media (max-width: 500px) {
+  .project-field {
+    width: 80%;
+  }
+}
+@media (max-width: 350px) {
+  .project-field {
+    width: 90%;
+  }
+}
+
+@media (max-width: 320px) {
+  .project-field__logo {
+    height: 8rem;
+    width: 8rem;
+  }
+
+  .project-field__img {
+    height: 8rem;
+    width: 8rem;
+  }
+}
